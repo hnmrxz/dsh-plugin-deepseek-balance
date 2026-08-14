@@ -1,0 +1,9 @@
+# 安装示例：把本插件加入 DSH profile 的 composition
+#
+# 用法：把这个 `- insert:` 片段合并进你的 profile 的 cordis.patch.yml
+# （通常是 ~/.dsh/profiles/web/cordis.patch.yml，没有就新建），
+# 并在同目录 `npm install dsh-plugin-deepseek-balance` 后重启 dsh。
+
+- insert:
+    - id: deepseek-balance
+      name: dsh-plugin-deepseek-balance
