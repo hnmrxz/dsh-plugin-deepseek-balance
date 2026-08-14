@@ -91,6 +91,21 @@ lib/client.js   # Client half（web bundle，__ModuleLoader__ 格式）
 
 改动后重新安装到 profile（或 `npm link`）并重启 dsh 即可。
 
+## Publish
+
+推送到 GitHub 后，发布到 npm 供用户直接安装：
+
+```bash
+# 推送前先改包名（GitHub 同名仓库惯例）
+# package.json 里把 "name" 改为 "@<你的GitHub用户名>/dsh-plugin-deepseek-balance"
+
+git remote add origin git@github.com:<你的GitHub用户名>/dsh-plugin-deepseek-balance.git
+git push -u origin main
+
+npm login
+npm publish
+```
+
 ## License
 
 [MIT](LICENSE)
