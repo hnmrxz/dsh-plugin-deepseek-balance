@@ -15,7 +15,7 @@ Real-time DeepSeek account balance in the DSH bottom status bar (the band under 
 
 ## Screenshots
 
-<!-- 在此添加截图：composer 下方状态带上的余额显示，例如 docs/screenshot.png -->
+![底部状态栏余额显示](docs/balance.png)
 
 ## Install
 
